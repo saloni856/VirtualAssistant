@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "The Virtual Assistant is an intelligent conversational system designed to assist users with day-to-day tasks through voice commands or text-based interaction.",
+  "license": "ISC",
+  "author": "Saloni Verma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.37.0",
+    "jsonwebtoken": "^9.0.2",
+    "melter": "^0.0.1",
+    "moment": "^2.30.1",
+    "mongoose": "^8.18.2",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "openai": "^6.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2"
+  }
+}
