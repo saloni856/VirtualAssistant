@@ -4,7 +4,7 @@ import axios from "axios";
 import bg from "../assets/authBg.png";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import { userDataContext } from "../context/UserContext";
+import { userDataContext } from "./context/UserContext";
 
 function SignUp() {
   const [showPassword, setShowPassword] = useState(false);
