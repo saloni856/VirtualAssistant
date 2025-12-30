@@ -154,29 +154,3 @@ export const askToAssistant=async(req,res)=>{
 }
 
 
-// // --------------------
-// // LOGIN
-// // --------------------
-// export const loginUser = async (req, res) => {
-//   const { email, password } = req.body;
-
-//   // MOCK USER - replace with DB query
-//   const user = { id: 1, name: "Saloni", email };
-
-//   const token = jwt.sign(user, "YOUR_SECRET_KEY", { expiresIn: "1d" });
-
-//   res.cookie("token", token, {
-//     httpOnly: true,
-//     secure: false,
-//     sameSite: "lax",
-//   });
-
-//   res.json({ message: "Login success", user });
-// };
-
-// // --------------------
-// // CURRENT USER
-// // --------------------
-// export const currentUser = async (req, res) => {
-//   res.json({ user: req.user });
-// };
