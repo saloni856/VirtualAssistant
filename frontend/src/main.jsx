@@ -9,8 +9,8 @@ axios.defaults.withCredentials = true;
 
 createRoot(document.getElementById('root')).render(
 <BrowserRouter>
-<UserContext>
+<userContext>
     <App />
-</UserContext>
+</userContext>
 </BrowserRouter>
 )
